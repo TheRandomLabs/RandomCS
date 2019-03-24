@@ -29,16 +29,17 @@ RUN apt-get -y update && \
 		chown $USER:$USER $HOME && \
 		mkdir $SERVER
 
-ADD ./cfg $SERVER/csgo/csgo/cfg
-ADD ./update_csgo.txt $SERVER/update_csgo.txt
-ADD ./update.sh $SERVER/update.sh
-ADD ./csgo.sh $SERVER/csgo.sh
+COPY ./cfg $SERVER/csgo/csgo/cfg
+COPY ./update_csgo.txt $SERVER/update_csgo.txt
+COPY ./update.sh $SERVER/update.sh
+COPY ./csgo.sh $SERVER/csgo.sh
 
 RUN chown -R $USER:$USER $SERVER
 
 USER $USER
 RUN curl http://media.steampowered.com/client/steamcmd_linux.tar.gz | tar -C $SERVER -xvz
 
+# /home/csgo/server/csgo
 VOLUME $SERVER/csgo
 
 EXPOSE 27015/tcp
