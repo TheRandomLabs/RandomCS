@@ -18,6 +18,14 @@ The link to Metamod:Source.
 
 The link to SourceMod.
 
+`PORT 27015`
+
+The main port. This should be exposed over TCP and UDP.
+
+`TV_PORT 27020`
+
+The GOTV port. This should be exposed over UDP.
+
 `WEB_API_KEY 0`
 
 The Steam web API key, required for downloading workshop maps.
