@@ -19,9 +19,12 @@ if [ "$current_sourcemod_version" != "$2" ] ; then
 	echo $2 > current_sourcemod
 fi
 
-# If current_sourcemod_version is empty, SourceMod was not installed before,
-# so we enable some plugins that are disabled by default
+# If current_sourcemod_version is empty, SourceMod was not installed before.
+# We copy over the default admins file and enable some plugins that are disabled by default.
+# Admittedly, the default admins_simple.ini is for my convenience.
 if [ -z "$current_sourcemod_version" ] ; then
+	cp ~/server/default_admins_simple.ini csgo/addons/sourcemod/configs/admins_simple.ini
+
 	cd csgo/addons/sourcemod/plugins/disabled
 	mv mapchooser.smx ..
 	mv nominations.smx ..
