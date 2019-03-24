@@ -1,3 +1,3 @@
 # RandomCS
 
-Dedicated 128 tick server in Docker with SourceMod and workshop maps.
+Dedicated 128 tick CS:GO server in Docker with SourceMod and workshop maps.
