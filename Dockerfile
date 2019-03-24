@@ -32,9 +32,10 @@ RUN apt-get -y update && \
 		chown $USER:$USER $HOME && \
 		mkdir $SERVER
 
-COPY csgo $SERVER/csgo/csgo
+COPY cfg $SERVER/csgo/csgo/cfg
 COPY csgo.sh $SERVER/csgo.sh
 COPY default_admins_simple.ini $SERVER/default_admins_simple.ini
+COPY default_mapcycle.txt $SERVER/default_mapcycle.txt
 COPY update.sh $SERVER/update.sh
 COPY update_csgo.txt $SERVER/update_csgo.txt
 COPY update_sourcemod.sh $SERVER/update_sourcemod.sh
