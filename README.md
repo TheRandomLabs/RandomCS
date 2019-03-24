@@ -28,7 +28,8 @@ The GOTV port. This should be exposed over UDP.
 
 `WEB_API_KEY 0`
 
-The Steam web API key, required for downloading workshop maps.
+The [Steam web API key](https://steamcommunity.com/dev/apikey),
+required for downloading workshop maps.
 
 `MAX_PLAYERS 15`
 
@@ -44,7 +45,7 @@ The password to connect via RCON to the server.
 
 `GSLT 0`
 
-The gameserver login token.
+The [gameserver login token](https://steamcommunity.com/dev/managegameservers).
 
 `WORKSHOP_COLLECTION 1676153886`
 
@@ -59,3 +60,9 @@ The ID of the workshop map that the server starts on.
 `/home/csgo/server/csgo`
 
 The CS:GO server files.
+
+## Basic run command
+
+`docker run -d -p 27015:27015 -p 27015:27015/udp -p 27020:27020/udp --restart always
+--name RandomCS -e WEB_API_KEY={KEY} -e GSLT={TOKEN} -e PASSWORD={PASSWORD}
+-e RCON_PASSWORD={RCON_PASSWORD} therandomlabs/randomcs`
