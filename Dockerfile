@@ -33,7 +33,7 @@ COPY cfg $SERVER/csgo/csgo/cfg
 COPY csgo.sh $SERVER/csgo.sh
 COPY update.sh $SERVER/update.sh
 COPY update_csgo.txt $SERVER/update_csgo.txt
-copy update_sourcemod.sh $SERVER/update_sourcemod.sh
+COPY update_sourcemod.sh $SERVER/update_sourcemod.sh
 
 RUN chown -R $USER:$USER $SERVER
 
