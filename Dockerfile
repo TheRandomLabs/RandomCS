@@ -31,6 +31,7 @@ RUN apt-get -y update && \
 
 COPY cfg $SERVER/csgo/csgo/cfg
 COPY csgo.sh $SERVER/csgo.sh
+COPY mapcycle.txt $SERVER/csgo/csgo/mapcycle.txt
 COPY update.sh $SERVER/update.sh
 COPY update_csgo.txt $SERVER/update_csgo.txt
 COPY update_sourcemod.sh $SERVER/update_sourcemod.sh
