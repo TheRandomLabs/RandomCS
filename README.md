@@ -45,3 +45,9 @@ The ID of the workshop collection.
 `WORKSHOP_START_MAP 610977040`
 
 The ID of the workshop map that the server starts on.
+
+## Volumes
+
+`/home/csgo/server/csgo`
+
+The CS:GO server files.
