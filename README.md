@@ -66,3 +66,9 @@ The CS:GO server files.
 `docker run -d -p 27015:27015 -p 27015:27015/udp -p 27020:27020/udp --restart always
 --name RandomCS -e WEB_API_KEY={KEY} -e GSLT={TOKEN} -e PASSWORD={PASSWORD}
 -e RCON_PASSWORD={RCON_PASSWORD} therandomlabs/randomcs`
+
+To use different ports:
+
+`docker run -d -p 27016:27016 -p 27016:27016/udp -p 27021:27021/udp --restart always
+--name RandomCS -e PORT 27016 -e TV_PORT 27021 -e WEB_API_KEY={KEY} -e GSLT={TOKEN}
+-e PASSWORD={PASSWORD} -e RCON_PASSWORD={RCON_PASSWORD} therandomlabs/randomcs`
