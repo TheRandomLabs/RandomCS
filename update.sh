@@ -8,4 +8,4 @@ if [ ! -e ~/.steam/sdk32/steamclient.so ]; then
 	ln -s ~/server/linux32/steamclient.so ~/.steam/sdk32/steamclient.so
 fi
 
-./update_sourcemod.sh
+./update_sourcemod.sh $1 $2
