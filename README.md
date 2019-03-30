@@ -13,11 +13,11 @@ Additionally, `mapchooser`, `nominations` and `rockthevote` are enabled by defau
 
 ## Environment variables
 
-`METAMOD_SOURCE_LINK https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1125-linux.tar.gz`
+`METAMOD_SOURCE_LINK https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1127-linux.tar.gz`
 
 The link to Metamod:Source.
 
-`SOURCEMOD_LINK https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6390-linux.tar.gz`
+`SOURCEMOD_LINK https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6392-linux.tar.gz`
 
 The link to SourceMod.
 
