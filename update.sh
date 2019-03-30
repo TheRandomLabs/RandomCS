@@ -9,3 +9,5 @@ if [ ! -e ~/.steam/sdk32/steamclient.so ]; then
 fi
 
 ./update_sourcemod.sh $1 $2
+
+rm -rf csgo/csgo/backup_round*.txt
