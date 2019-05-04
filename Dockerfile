@@ -6,7 +6,7 @@ ENV HOME /home/$USER
 ENV SERVER $HOME/server
 
 ENV METAMOD_SOURCE_LINK https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1127-linux.tar.gz
-ENV SOURCEMOD_LINK https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6392-linux.tar.gz
+ENV SOURCEMOD_LINK https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6405-linux.tar.gz
 
 ENV PORT 27015
 ENV TV_PORT 27020
