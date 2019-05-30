@@ -17,7 +17,7 @@ Additionally, `mapchooser`, `nominations` and `rockthevote` are enabled by defau
 
 The link to Metamod:Source.
 
-`SOURCEMOD_LINK https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6405-linux.tar.gz`
+`SOURCEMOD_LINK https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6421-linux.tar.gz`
 
 The link to SourceMod.
 
