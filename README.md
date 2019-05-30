@@ -1,7 +1,7 @@
 # RandomCS
 
-![Counter-Strike: Global Offensive]
-(https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/CS-GO_Logo.svg/1920px-CS-GO_Logo.svg.png)
+![Counter-Strike: Global Offensive](
+https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/CS-GO_Logo.svg/1920px-CS-GO_Logo.svg.png)
 
 128-tick dedicated CS:GO server in Docker with SourceMod and workshop maps.
 
@@ -17,7 +17,7 @@ Additionally, `mapchooser`, `nominations` and `rockthevote` are enabled by defau
 
 The link to Metamod:Source.
 
-`SOURCEMOD_LINK https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6421-linux.tar.gz`
+`SOURCEMOD_LINK https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git64-linux.tar.gz`
 
 The link to SourceMod.
 
