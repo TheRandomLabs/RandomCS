@@ -1,7 +1,7 @@
 # RandomCS
 
-![Counter-Strike: Global Offensive](
-https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/CS-GO_Logo.svg/1920px-CS-GO_Logo.svg.png)
+![Counter-Strike: Global Offensive]
+(https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/CS-GO_Logo.svg/1920px-CS-GO_Logo.svg.png)
 
 128-tick dedicated CS:GO server in Docker with SourceMod and workshop maps.
 
